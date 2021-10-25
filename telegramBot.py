@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from types import LambdaType
 
-api = telebot.TeleBot("2055565535:AAG1hZW3E-ZFYsVUuT2V1WyrsyCyouRnd5Y")
+api = telebot.TeleBot("token")
 
 @api.message_handler(commands=['start'])
 def start(message):
